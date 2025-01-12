@@ -1,0 +1,1 @@
+This error occurs when using Expo's `Camera` API and attempting to access the `takePictureAsync` method before the camera has finished loading.  This results in an error similar to: `Error: Camera is not initialized`. This can happen if your code calls `takePictureAsync` too early in the component's lifecycle or before the camera permissions are granted.
